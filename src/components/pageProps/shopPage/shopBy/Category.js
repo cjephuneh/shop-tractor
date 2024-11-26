@@ -8,37 +8,37 @@ const Category = () => {
   const items = [
     {
       _id: 990,
-      title: "Vehicles",
+      title: "Tractors",
       icons: true,
     },
     {
       _id: 991,
-      title: "Property",
+      title: "Attachments",
     },
     {
       _id: 992,
-      title: "Electronics",
+      title: "Mowers",
       icons: true,
     },
     {
       _id: 993,
-      title: "Home,Furniture & Appliances",
+      title: "Plows",
     },
     {
       _id: 994,
-      title: "Voluntary Services",
+      title: "Harvesters",
     },
     {
       _id: 995,
-      title: "Babies & Kids",
+      title: "Utility Vehicles",
     },
     {
       _id: 996,
-      title: "Animals and Pets",
+      title: "Seeders",
     },
     {
       _id: 997,
-      title: "Repair & Construction",
+      title: "Sprayers",
     },
   ];
   return (

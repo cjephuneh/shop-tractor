@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
-import { FaSearch, FaUser, FaCaretDown,  } from "react-icons/fa";
+import { FaSearch, FaUser, FaCaretDown } from "react-icons/fa";
 import Flex from "../../designLayouts/Flex";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -57,23 +57,23 @@ const HeaderBottom = () => {
                 transition={{ duration: 0.5 }}
                 className="absolute top-36 z-50 bg-primeColor w-auto text-[#767676] h-auto p-4 pb-6"
               >
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
+                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-[#ff461e] hover:text-[#ff461e] duration-300 cursor-pointer">
+                  Tractors
+                </li>
+                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-[#ff461e] hover:text-[#ff461e] duration-300 cursor-pointer">
+                  Harvesters
+                </li>
+                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-[#ff461e] hover:text-[#ff461e] duration-300 cursor-pointer">
+                  Plows
+                </li>
+                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-[#ff461e] hover:text-[#ff461e] duration-300 cursor-pointer">
+                  Seeders
+                </li>
+                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-[#ff461e] hover:text-[#ff461e] duration-300 cursor-pointer">
+                  Agricultural Equipment
+                </li>
+                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-[#ff461e] hover:text-[#ff461e] duration-300 cursor-pointer">
                   Accessories
-                </li>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Furniture
-                </li>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Electronics
-                </li>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Clothes
-                </li>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400  hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Bags
-                </li>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400  hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Home appliances
                 </li>
               </motion.ul>
             )}
@@ -143,21 +143,21 @@ const HeaderBottom = () => {
                 className="absolute top-6 left-0 z-50 bg-primeColor w-39 text-[#767676] h-auto p-4 pb-6"
               >
                 <Link to="/signin">
-                  <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
+                  <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-[#ff461e] hover:text-[#ff461e] duration-300 cursor-pointer">
                     Login
                   </li>
                 </Link>
                 <Link onClick={() => setShowUser(false)} to="/signup">
-                  <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
+                  <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-[#ff461e] hover:text-[#ff461e] duration-300 cursor-pointer">
                     Sign Up
                   </li>
                 </Link>
-                <Link  to="/account">
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Profile
-                </li>
+                <Link to="/account">
+                  <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-[#ff461e] hover:text-[#ff461e] duration-300 cursor-pointer">
+                    Profile
+                  </li>
                 </Link>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400  hover:border-b-white hover:text-white duration-300 cursor-pointer">
+                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-[#ff461e] hover:text-[#ff461e] duration-300 cursor-pointer">
                   Others
                 </li>
               </motion.ul>

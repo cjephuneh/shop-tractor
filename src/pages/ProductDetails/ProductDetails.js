@@ -24,14 +24,14 @@ const ProductDetails = () => {
           <div className="h-full">
             <ProductsOnSale />
           </div>
-          <div className="h-full xl:col-span-2 cursor-pointer">
+          <div className="h-full xl:col-span-2 flex flex-col justify-start">
             <img
-              className="w-full h-full object-cover"
+              className="w-full h-60 object-contain mt-10"
               src={productInfo.img}
               alt={productInfo.img}
             />
           </div>
-          <div className="h-full w-full md:col-span-2 xl:col-span-3 xl:p-14 flex flex-col gap-6 justify-center">
+          <div className="h-full w-full md:col-span-2 xl:col-span-3 xl:p-14 flex flex-col gap-6 justify-start">
             <ProductInfo productInfo={productInfo} />
           </div>
         </div>

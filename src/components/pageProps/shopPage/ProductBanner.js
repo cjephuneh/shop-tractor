@@ -63,7 +63,7 @@ const ProductBanner = ({ itemsPerPageFromBanner }) => {
           >
             <option value="Best Sellers">New Products</option>
             <option value="Featured">Featured</option>
-            {/* <option value="Final Offer">Final Offer</option> */}
+            <option value="Final Offer">Used Products</option>
           </select>
           <span className="absolute text-sm right-2 md:right-4 top-2.5">
             <GoTriangleDown />

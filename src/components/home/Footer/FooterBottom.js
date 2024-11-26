@@ -9,10 +9,10 @@ const FooterBottom = () => {
           <span className="text-md mr-[1px] mt-[2px] md:mt-0 text-center hidden md:inline-flex">
             <AiOutlineCopyright />
           </span>
-            Copyright 2023 | Ask Giver | All Rights Reserved |
+            Copyright 2025 | Hello Tractor | All Rights Reserved |
           <a href="#" target="_blank" rel="noreferrer">
             <span className="ml-1 font-medium group-hover:text-primeColor">
-              Powered by Ask Giver
+              Powered by Hello Tractor dot com
             </span>
           </a>
         </p>

@@ -5,44 +5,31 @@ import Breadcrumbs from "../../components/pageProps/Breadcrumbs";
 const About = () => {
   const location = useLocation();
   const [prevLocation, setPrevLocation] = useState("");
+  
   useEffect(() => {
     setPrevLocation(location.state.data);
   }, [location]);
+
   return (
     <div className="max-w-container mx-auto px-4">
       <Breadcrumbs title="About" prevLocation={prevLocation} />
       <div className="pb-10 px-20">
-        <h1 className="max-w-[600px]  text-lightText mb-2 text-xl">
-          <span className="text-primeColor font-semibold text-lg">Ask Giver</span>{" "}<br/>
-          AskGiver is a platform that connects people with items they have and are willing to give out for
-          free with individuals who have needs and would like to get them for free. <br/> The two parties can
-          always meet through the platform; one requests and another accepts. Finally, the two can meet
-          physically, and the receiver picks the item from the giver.<br/> Alternatively, the receiver can get the
-          items delivered by AskGiver in some places.<br/>
-          <span className="text-primeColor font-semibold text-lg">Solutions that AskGiver Provide</span><br/>
-          Millions of people possess items they no longer need, while others lack access to these very
-          items. This disconnect between surplus and need represents a significant challenge in our
-          society. Current resource-sharing mechanisms often fall short, leaving valuable items unused and
-          underserved communities without vital resources. AskGiver aims to bridge this gap efficiently
-          and equitably, unlocking the dormant potential of resource sharing for the benefit of all at no
-          cost.<br/>
-          <span className="text-primeColor font-semibold text-lg">Key Pillars</span><br/>
-          <span className="text-primeColor font-semibold text-lg">Reducing Waste</span><br/>
-
-          AskGiver promotes the culture of reuse and recycling by facilitating the exchange of items that
-          are no longer needed by one person but can be useful to another.
-          Alleviating Poverty
-          AskGiver provides a platform where individuals can access items they need without having to
-          pay for them, thereby reducing the financial burden on those who may not have the means to
-          purchase them.<br/>
-          <span className="text-primeColor font-semibold text-lg">Building Community</span><br/>
-         
-          With the increasing isolation brought on by modern technology, AskGiver creates a platform for
-          people to connect and build relationships. It provides an opportunity for individuals to help each
-          other and foster a sense of community.<br/>
-          <span className="text-primeColor font-semibold text-lg">Addressing Inequality</span><br/>
-          AskGiver provides a means for individuals to access items they need regardless of their financial
-          status, thus reducing inequality.
+        <h1 className="max-w-[600px] text-lightText mb-2 text-xl">
+          <span className="text-primeColor font-semibold text-lg">Hello Tractor</span>{" "}<br/>
+          Hello Tractor is a dedicated platform created to promote and facilitate the buying and selling of second-hand agricultural tractors, implements, spare parts, and agricultural equipment accessories within Kenya. Our mission is to empower farmers by providing them with access to affordable and reliable machinery that can enhance their productivity and efficiency.<br/><br/>
+          In a country where agriculture is a vital part of the economy, we understand the challenges that farmers face in acquiring the right equipment. Many farmers have valuable machinery that they no longer use, while others are in desperate need of affordable options. Hello Tractor bridges this gap by connecting sellers with buyers, creating a vibrant marketplace for second-hand agricultural equipment.<br/><br/>
+          <span className="text-primeColor font-semibold text-lg">Why Choose Hello Tractor?</span><br/>
+          Our platform is designed with the farmer in mind. We offer a user-friendly interface that makes it easy to list and browse available equipment. Whether you are looking to buy a tractor, sell your old implements, or find spare parts, Hello Tractor is your go-to resource.<br/><br/>
+          <span className="text-primeColor font-semibold text-lg">Key Benefits:</span><br/>
+          <ul className="list-disc list-inside">
+            <li>Access to a wide range of second-hand agricultural equipment.</li>
+            <li>Affordable pricing to help farmers save costs.</li>
+            <li>A community-driven platform that fosters connections between buyers and sellers.</li>
+            <li>Support for sustainable farming practices through the reuse of equipment.</li>
+          </ul>
+          <br/>
+          Join us today and be part of a growing community that is transforming the agricultural landscape in Kenya. Together, we can make farming more accessible and efficient for everyone.<br/><br/>
+          <span className="text-primeColor font-semibold text-lg">BUY AND SELL NOW!</span>
         </h1>
         <Link to="/shop">
           <button className="w-52 h-10 bg-primeColor text-white hover:bg-black duration-300">

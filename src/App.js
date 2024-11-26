@@ -16,6 +16,7 @@ import SignIn from "./pages/Account/SignIn";
 import SignUp from "./pages/Account/SignUp";
 import Postitem from "./pages/postanitem/postanitem"
 import RequestItem from "./pages/requestItem/requestItem";
+import MessageOwner from "./pages/messageowner/messageowner";
 import Account from "./pages/Account/Account";
 import Create from "./pages/create/create";
 // import Cart from "./pages/Cart/Cart";
@@ -57,10 +58,12 @@ const router = createBrowserRouter(
         {/* <Route path="/paymentgateway" element={<Payment />}></Route> */}
         <Route path="/postanitem" element={<Postitem/>}></Route>
         <Route path="/requestitem" element={<RequestItem/>}></Route>
+        <Route path="/messageowner" element={<MessageOwner/>}></Route>
         <Route path="/create" element={<Create/>}></Route>
         <Route path="/account" element={<Account />}></Route>
         <Route path="/signin" element={<SignIn />}></Route>
         <Route path="/signup" element={<SignUp />}></Route>
+
 
       </Route>
     </Route>
