@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const ProductInfo = ({ productInfo }) => {
   const navigate = useNavigate();
   const handleRequestItem = () => {
-    navigate(`/requestitem`);
+    navigate(`/messageowner`);
   };
   return (
     <div className="flex flex-col gap-5">

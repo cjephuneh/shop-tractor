@@ -1,6 +1,7 @@
 import React from 'react';
 import Image4 from '../assets/images/image copy 3.png';
 
+
 function MainSlider() {
   return (
     <div className="mx-auto max-w-[540px] sm:max-w-[768px] md:max-w-[992px] sm:p-8 md:p-12 lg:max-w-[1200px] xl:max-w-[1410px] h-full border border-gray-200 rounded-lg shadow bg-gray-300 flex items-center justify-center overflow-hidden">
